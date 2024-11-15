@@ -120,8 +120,8 @@ setup_qq_bot() {
     echo "正在设置QQ机器人项目..."
     proot-distro login napcat -- bash -c "
         cd /root &&
-        git clone https://github.com/syuchua/MY_QBOT.git &&
-        cd MY_QBOT &&
+        git clone https://github.com/syuchua/QFurina.git &&
+        cd QFurina &&
         python -m pip install -r requirements.txt
     "
     if [ $? -ne 0 ]; then
